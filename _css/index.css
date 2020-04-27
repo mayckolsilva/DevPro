@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(rgb(10,20,30));
+
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    
+}
+
+.p{
+    color: black;
+}
