@@ -3,12 +3,25 @@ body{
 
 }
 
-.logo{
-    width: 10%;
-    height: 10%;
-    
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
 }
 
-.p{
+.menu a{
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    overflow: hidden;
+    background-color: gray;
+}
+
+.menu a :hover{
+    backgound-color: black;
     color: black;
 }
