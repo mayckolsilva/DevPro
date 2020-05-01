@@ -3,11 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Raleway', sans-serif;
 }
 body{
     background: url("../_imagens/imagem_fundo_contato.jpg") no-repeat top center;
