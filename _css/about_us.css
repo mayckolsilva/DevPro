@@ -9,8 +9,7 @@ p{
 }
 
 body{
-    color: white;
-    background-color: black;
+    background-image: url('../_imagens/bkgimg.jpg');
 }
 div{
     align-items: center;
