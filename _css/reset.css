@@ -6,8 +6,6 @@
     padding: 0px;
     font-family: 'Source Sans Pro', 'Noto Sans JP', 'Roboto Condensed' ;
 }
-.image-logo{
-    background-image: url('../_imagens/LogoPNG.png') ;
-    width: 150px;
-    height: 130px;
+html{
+    height: 100%;
 }
