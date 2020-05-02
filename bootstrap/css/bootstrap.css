@@ -2917,8 +2917,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
+  color: #fff;
   border-color: #28a745;
+
 }
 
 .btn-outline-success:hover {
@@ -4238,6 +4239,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4255,7 +4257,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-item {
-  margin-bottom: -1px;
+  margin-bottom: 52px;
 }
 
 .nav-tabs .nav-link {
@@ -4346,9 +4348,9 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-right: 60%;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -4363,7 +4365,7 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-left: 0;
+  padding: 2px;
   margin-bottom: 0;
   list-style: none;
 }
@@ -4391,6 +4393,7 @@ input[type="button"].btn-block {
   flex-grow: 1;
   -ms-flex-align: center;
   align-items: center;
+  
 }
 
 .navbar-toggler {
@@ -4736,6 +4739,10 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .card > hr {
@@ -4762,6 +4769,16 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  font-size: 25px;
+  
+  
+}
+.content > .card-title{
+  border-bottom: 3px solid rgb(0, 255, 21);
+  margin-top: 5px;
+  margin-left: 5%;
+  padding: 5px;
+  width: 125px;
 }
 
 .card-subtitle {
@@ -4782,9 +4799,9 @@ input[type="button"].btn-block {
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
+  padding: 5px 4px;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(45, 143, 6, 0.178);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -4798,6 +4815,7 @@ input[type="button"].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
