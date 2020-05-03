@@ -4260,6 +4260,10 @@ input[type="button"].btn-block {
   margin-bottom: 52px;
 }
 
+u, .nav-item{
+  list-style: none;
+}
+
 .nav-tabs .nav-link {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
@@ -4816,7 +4820,7 @@ input[type="button"].btn-block {
 .card-footer {
   padding: 0.75rem 1.25rem;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: #343a40;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
