@@ -1,22 +1,24 @@
-h1{
-    color: green;
-    text-align: center;
+.card-title{
+    border-bottom: 3px solid rgb(0, 255, 21);
+    margin-top: 5px;
+    margin-left: 5%;
+    padding: 5px;
+    width: 340px;
 }
-
-p{
+.txt p{
     color: black;
-    text-align: center;
+    text-align: justify;
+    font-size: larger;
+    text-indent: 4em;
+    padding: 3px;
 }
-
-body{
-    font-family: 'Source Sans Pro';
-}
-
 .txt{
-    border: solid;
-    border-color: green;
+    width: 80%;
+    margin: auto;
+    border-left: 3px solid green;
+    border-right: 3px solid green;
 }
-.students{
-   color: green;
+footer{
+    position: absolute;
+    bottom: 0%;
 }
-
