@@ -1,16 +1,22 @@
 h1{
-    color: white;
+    color: green;
     text-align: center;
 }
 
 p{
-    color: white;
+    color: black;
     text-align: center;
 }
 
 body{
-    background-image: url('../_imagens/bkgimg.jpg');
+    font-family: 'Source Sans Pro';
 }
-div{
-    align-items: center;
+
+.txt{
+    border: solid;
+    border-color: green;
 }
+.students{
+   color: green;
+}
+
