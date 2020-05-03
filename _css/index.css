@@ -1,27 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 body{
-    background-image: linear-gradient(rgb(10,20,30));
-
+    /*background-image: linear-gradient(rgb(10,20,30));*/
+    font-family: 'Source Sans Pro';
 }
-
-.header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
+.services{
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 12.5%;
+    border-bottom: 3px solid #08f000;
+    padding: 5px;
 }
-
-.menu a{
-    text-align: center;
-    padding: 14px 16px;
-    display: block;
-    text-decoration: none;
-    color: black;
+.icon{
+    width: 65px;
+    height: 65px;
+    margin-top: 1px;
+    
+    
 }
-.menu{
-    overflow: hidden;
-    background-color: gray;
+.row{
+    float: left;
+    margin-left: 5%;
+    width: 300px;
+    height: 355px;
 }
+.card{
+    border: solid 1px green;
+    width: 450px;
+}
+.card-text{
 
-.menu a :hover{
-    backgound-color: black;
-    color: black;
 }

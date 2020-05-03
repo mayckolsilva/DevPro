@@ -2,55 +2,108 @@
 <html lang="pt-br">
     <head>
         <title>DevPro - Inteligência em Tecnologia</title>
-        <link rel="stylesheet" href="_css/index.css" >
+        <!-- Using Bootstrap CSS-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="./_css/index.css">
+        <link rel="stylesheet" href="./_css/reset.css">
         <meta charset="UTF-8">
         <meta name="description" content="Divulgação do nosso trabalho como desenvolvedores de Web Sites.">
         <meta name="keywords" content="DevPro, Programação Web, JavaScript, Sites">
         <meta name="author" content="DevPro">
-        <link rel="stylesheet" type="text/css" href="./_css/reset.css">
     </head>
     <body>
-        <header>
-            <div class='menu'>
-                <a href='#'>Inicio</a>
-                <a href='#'>Sobre Nós</a>
-                <a href='#'>Contato</a>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="./_imagens/logoDevpro.png" width="160px" height="60px" class="d-inline-block align-top" alt="Logo DevPro">
+            </a>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item btn btn-outline-success">
+                        <a class="nav-link text-success strong" href="#" target="_blank"><b><strong>Página Inicial</strong></b></a>
+                    </li>
+                    <li class="nav-item btn btn-outline-success">
+                        <a class="nav-link text-success" href="about_us.html" target="_blank"><b><strong>Sobre Nós</strong></b></a>
+                    </li>
+                    <li class="nav-item btn btn-outline-success">
+                        <a class="nav-link text-success" href="contato.html" target="_blank"><b><strong>Contato</strong></b></a>
+                    </li>
+                </ul>
             </div>
-            <div class="logo">
-                <img src="_imagens\LogoPNG.png"/>
+        </nav>
+        <section class="content">
+            <div class="card-title">
+                <h2>Serviços</h2>
             </div>
-            <h4>Inteligência em Tecnologia</h4>
-        </header>
-        <p>
-            Esta plataforma tem o proposito de fornecer cursos sobre tecnologia da informação.
-        </p>
-        <section>   
-            <article>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ultricies pharetra. Cras pretium turpis non felis pretium pulvinar. Nam scelerisque augue enim, in tristique urna facilisis id. Maecenas massa nibh, pellentesque et mi ut, facilisis commodo turpis. Vivamus sodales facilisis cursus. Pellentesque ac egestas urna. In porta risus ac nulla posuere hendrerit. 
-                </p>
-                <p>
-                    Duis ut laoreet enim. Quisque in massa dignissim, egestas dui ac, varius ante. Fusce placerat consequat quam, quis iaculis arcu eleifend eu. Suspendisse metus justo, commodo vitae dui eget, molestie condimentum ligula. Donec eu dolor ac felis congue mollis in nec augue. Mauris laoreet eros nec vestibulum malesuada. Vestibulum bibendum, orci a lacinia efficitur, risus orci interdum mauris, non venenatis urna arcu eu urna. Mauris dapibus, sapien in dictum tempus, ligula purus ultricies ante, nec pharetra quam justo at ligula. Duis hendrerit efficitur nisi, vel venenatis quam mollis mollis. Vestibulum ut ullamcorper est. 
-                </p>
-            </article>
-            <aside>
-                <article>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et magna dolor. Phasellus facilisis luctus elit, at aliquet sapien ultrices vitae. Nam vel velit eget purus vehicula tincidunt ut eget nibh. Duis accumsan lectus at nisi porttitor placerat at et sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean non pharetra lectus, vel auctor tortor. Nam fringilla, nunc et vulputate posuere, nulla ex tempus est, sed posuere lectus diam eu dui. Phasellus sodales lectus id elementum dapibus. Donec a varius sapien. Etiam vitae diam ut lorem lacinia varius. Sed lacinia dapibus sem in blandit. Quisque sed vestibulum nibh. Nullam pellentesque nisl id pretium feugiat. 
-                    </p>
-                    <p>
-                        n lacinia pretium dolor, sed sollicitudin neque cursus id. Nullam pharetra elit vel dignissim eleifend. Donec rutrum quam at dolor viverra, a hendrerit tellus feugiat. Suspendisse vestibulum id augue et fermentum. Maecenas sit amet ante scelerisque, eleifend erat sed, mattis felis. Donec feugiat est purus, quis fringilla ex vehicula quis. Sed sollicitudin enim ac erat accumsan, sed pellentesque ante accumsan. Morbi non porta nulla. Vestibulum et arcu mollis, vestibulum orci non, ornare arcu. Sed sit amet imperdiet ex. Donec sollicitudin lorem vitae ipsum pretium sollicitudin. Fusce auctor felis nisl, sit amet elementum libero venenatis at. Maecenas convallis a mi non vestibulum.
-                    </p>
-                    <p>
-                        Fusce tortor enim, ultricies eu imperdiet eu, scelerisque non nulla. Maecenas hendrerit pellentesque est, luctus iaculis elit euismod vitae. Cras quam augue, eleifend non dolor ut, tincidunt iaculis ipsum. Nullam blandit ultrices orci, nec gravida lacus consectetur accumsan. Morbi maximus augue orci, quis iaculis eros vestibulum ac. Pellentesque pellentesque magna id finibus elementum. Maecenas ut malesuada nisi, vitae tristique leo. Etiam diam odio, egestas quis varius a, tincidunt sodales nisl. Pellentesque nec tellus vitae sapien fringilla congue vel ut ligula. Etiam et risus nisi. 
-                    </p>
-                </article>
-            </aside>
-        </section>
-        <footer>
-            <div class="image-logo">
 
+            <div class="card text-center float-md-left">
+                <div class="card-header">
+                    <img class="icon" src="_icones/laptop-code-solid.svg">
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Criação de Sites</h5>
+                <p class="card-text">Nossa empresa é focada na criação de sites. Uma Agência web no Rio Grande do Sul. Pensou em desenvolvimento de sites, sites responsivos, SEO, adwords, banco de dados? Temos tudo para o seu site.</p>
+                <a href="#" class="btn btn-success">Contate-nos</a>
+                </div>
+            </div>
+            
+            <div class="card text-center float-md-right">
+                <div class="card-header">
+                    <img class="icon" src="_icones/cogs-solid.svg">
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Otimização de Sites SEO</h5>
+                <p class="card-text">Também conhecida como Search Engine Optimization, corresponde ao conjunto de técnicas responsáveis pela melhoria do posicionamento de páginas nos resultados de busca naturais dos sites buscadores.</p>
+                <a href="#" class="btn btn-success">Contate-nos</a>
+                </div>
+            </div>
+
+            <div class="card text-center float-md-left">
+                <div class="card-header">
+                    <img class="icon" src="_icones/shopping-cart-solid.svg">
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Lojas Virtuais</h5>
+                <p class="card-text">Solução completa e profissional de Lojas Virtuais, com varias opções de pagamento e frete com estoque, suporte completo com atualizações e melhorias grátis!</p>
+                <a href="#" class="btn btn-success">Contate-nos</a>
+                </div>
+            </div>
+            
+            <div class="card text-center float-md-right">
+                <div class="card-header">
+                    <img class="icon" src="_icones/envelope-regular.svg">
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">E-mail Marketing</h5>
+                <p class="card-text">As melhores soluções para criação do seu Email Marketing, temos vários planos de envios e geração automática do seu email com template pré-definido.</p>
+                <a href="#" class="btn btn-success">Contate-nos</a>
+                </div>
+            </div>
+        </section>
+        <footer class="card-footer float-md-left text-success">
+            <div class="students">
+                <p>Somos estudantes realizando um trabalho de final de semestre, estamos num longo aprendizado. Estudantes do Centro Universitário UNIFTEC.</p>
+            </div>
+            <div class="contacts">
+                <h5>Contato</h5>
+                <dl>
+                    <dt>Endereço:</dt>
+                    <dd>Rua Gustavo Ramos Sehbe, 107, Caxias do Sul.</dd>
+                </dl>
+                <dl>
+                    <dt>E-mail:</dt>
+                    <dd>devprocompany@gmail.com</dd>
+                </dl>
+            </div>
+            <div>
+                <h5>Links</h5>
+                <ul class="nav-item">
+                    <li>Página Inicial</li>
+                    <li>Sobre Nós</li>
+                    <li>Contato</li>
+                </ul>
             </div>
         </footer>
+        
     </body>
 </html>
