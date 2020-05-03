@@ -6,48 +6,53 @@
     box-sizing: border-box;
     outline: none;
 }
-body{
-    background: url("../_imagens/imagem_fundo_contato.jpg") no-repeat top center;
-    background-size: cover;
-    height: 100%;
+.card-title{
+    border-bottom: 3px solid rgb(0, 255, 21);
+    margin-top: 5px;
+    margin-left: 5%;
+    padding: 5px;
+    width: 125px;
 }
 .wrapper{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0%;
+    transform: translateY(65%);
     width: 100%;
     padding: 0 20px;
 }
 .contact-form{
-    max-width: 550px;
+    max-width: 770px;
     margin: 0 auto;
-    background: rgba(0,0,0, 0.7);
-    padding: 30px;
-    border-radius: 10px;
+    background: rgba(0,0,0, 0.8);
+    padding: 10px;
+    border-radius: 20px;
     display: flex;
     box-shadow: 0 0 10px rgba(0,0,0,0.13);
 }
-.input-fields{
-    display: flex;
-    flex-direction: column;
-    margin-right: 4%;
-}
+
 .input-fields, 
 .message{
     width: 48%;
 }
-.input-fields, .input, 
+.input-fields .input, 
 .message textarea{
-    margin: 10px 0;
+    margin: 5px 0;
     background: transparent;
     border: 0;
     border-bottom: 2px solid #c5ecfd;
-    padding: 10px;
+    padding: 13px;
     color: #c5ecfd;
     width: 100%;
 }
 .message textarea{
-    height: 240px;
+    height: 187px;
+}
+.btn{
+    float: right;
+}
+footer{
+    position: absolute;
+    bottom: -20%;
 }
 
 /* esse aqui é pros navegadores entenderem*/
@@ -59,15 +64,6 @@ body{
 }
 ::-ms-input-placeholder{
     color: #c5ecfd;
-}
-.btn{
-    background: #39b7dd;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-    color: #fff;
-    cursor:pointer;
-    text-transform: uppercase;
 }
 
 /*Colocando a mensagem em baixo se a tela for muito pequena*/
