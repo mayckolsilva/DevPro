@@ -1,0 +1,10 @@
+
+footer{
+    position: fixed !important;
+    bottom: 0px !important;
+}
+
+dl{
+    padding: 3px;
+    border-left: 1px solid green;
+}
