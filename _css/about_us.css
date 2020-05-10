@@ -6,11 +6,11 @@
     width: 340px;
 }
 .txt p{
-    color: black;
+    color: white;
     text-align: justify;
     font-size: larger;
     text-indent: 4em;
-    padding: 3px;
+    padding: 4px;
 }
 .txt{
     width: 80%;
@@ -18,7 +18,15 @@
     border-left: 3px solid green;
     border-right: 3px solid green;
 }
-footer{
-    position: absolute;
-    bottom: 0%;
+.customers{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.comp{
+    font-size: 20px;
+    padding: 1px;
+    color: white;
+    text-align: center;
+    margin-left: -15%;
 }

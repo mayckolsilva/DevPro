@@ -1,11 +1,4 @@
 /* Formulário de Contato*/
-/*importação de fonte para o formulário de contatos*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-*{
-    box-sizing: border-box;
-    outline: none;
-}
 .card-title{
     border-bottom: 3px solid rgb(0, 255, 21);
     margin-top: 5px;
@@ -13,13 +6,7 @@
     padding: 5px;
     width: 125px;
 }
-.wrapper{
-    position: absolute;
-    top: 0%;
-    transform: translateY(65%);
-    width: 100%;
-    padding: 0 20px;
-}
+
 .contact-form{
     max-width: 770px;
     margin: 0 auto;
@@ -50,32 +37,4 @@
 .btn{
     float: right;
 }
-footer{
-    position: absolute;
-    bottom: -20%;
-}
 
-/* esse aqui é pros navegadores entenderem*/
-::-webkit-input-placeholder{
-    color: #c5ecfd;
-}
-::-moz-input-placeholder{
-    color: #c5ecfd;
-}
-::-ms-input-placeholder{
-    color: #c5ecfd;
-}
-
-/*Colocando a mensagem em baixo se a tela for muito pequena*/
-@media screen and (max-width: 550px){
-    .contact-form{
-        flex-direction: column;
-    }
-    .msg textarea{
-        height: 80px;
-    }
-    .input-fields,
-    .message{
-        width: 100%;
-    }
-}
